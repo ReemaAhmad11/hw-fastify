@@ -1,0 +1,28 @@
+{
+  "name": "hw-fastify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "reema.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node dist/reema.js | pino-colada",
+    "dev": "tsc --watch && nodemon src/reema.ts | pino-colada"
+
+  },
+  
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+
+  "dependencies": {
+    "fastify": "^4.10.0",
+    "nodemon": "^2.0.20",
+    "typescript": "^4.9.3"
+  },
+  "devDependencies": { 
+    "@tsconfig/node16-strictest": "1.0.4",
+    "@types/node": "18.11.9", 
+    "ts-node": "10.9.1",     
+    "typescript": "4.9.3",     
+    "nodemon": "2.0.20"   }
+}
